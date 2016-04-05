@@ -1,6 +1,6 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
-
+platform :ios, '7.1'
 target 'HYMapKit_Example', :exclusive => true do
   pod 'HYMapKit', :path => '../'
+  pod 'AMap3DMap', '~> 3.3.0'
+  pod 'BaiduMapKit', '~> 2.10.2'
 end

@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "parallelWorld" => "654269765@qq.com" }
   s.source           = { :git => "https://github.com/parallelWorld/HYMapKit.git", :tag => s.version.to_s }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '7.1'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*.{h, m}'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.frameworks = 'UIKit', 'MapKit'
 end
