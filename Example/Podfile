@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'HYMapKit_Example', :exclusive => true do
+  pod 'HYMapKit', :path => '../'
+end
+
+target 'HYMapKit_Tests', :exclusive => true do
+  pod 'HYMapKit', :path => '../'
+
+  
+end
